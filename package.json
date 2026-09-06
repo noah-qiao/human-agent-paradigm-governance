@@ -1,0 +1,38 @@
+{
+  "name": "hap-governance",
+  "version": "1.0.0",
+  "description": "Human-Agent Paradigm (HAP) governance content package: the Constitution, the Derived Specification, the Conformance Checklist, and the Contract / Decision-Request / Delivery-Report templates in Simplified Chinese (ZH_CN) and English (EN), plus the governance-document structural self-check tool.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noah-qiao/human-agent-paradigm-governance.git"
+  },
+  "files": [
+    "assets",
+    "scripts/python/repo_governance_check",
+    "README.md",
+    "README.zh-CN.md",
+    "CHANGELOG.md",
+    "!**/__pycache__",
+    "!**/__pycache__/**",
+    "!**/*.pyc"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "hap",
+    "ai",
+    "agent",
+    "governance",
+    "constitution",
+    "bilingual"
+  ],
+  "scripts": {
+    "check": "python3 -m scripts.python.repo_governance_check --root . --out-dir reports"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=18"
+  }
+}

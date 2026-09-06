@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local reports
+reports/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+
+# HAP governance workspace entry and process records (kept local)
+.hap/
+AGENT.md
+CLAUDE.md
+

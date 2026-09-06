@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "required_files": [
+    "human_agent_paradigm.md",
+    "derived_specification.md",
+    "conformance_checklist.md",
+    "contract_template.md",
+    "decision_request_template.md",
+    "delivery_report_template.md"
+  ],
+  "upstream_references": {
+    "derived_specification.md": [
+      "版本：v1.0",
+      "上级文件：`HUMAN_AGENT_PARADIGM.md` v1.0"
+    ],
+    "conformance_checklist.md": [
+      "版本：v1.0",
+      "配套文件：`DERIVED_SPECIFICATION.md` v1.0"
+    ],
+    "contract_template.md": [
+      "派生规范 `DERIVED_SPECIFICATION.md` v1.0"
+    ],
+    "decision_request_template.md": [
+      "派生规范 `DERIVED_SPECIFICATION.md` v1.0"
+    ],
+    "delivery_report_template.md": [
+      "派生规范 `DERIVED_SPECIFICATION.md` v1.0"
+    ]
+  },
+  "required_headings": {
+    "human_agent_paradigm.md": [
+      "0. 文件地位与效力",
+      "1. 愿景与成功定义",
+      "2. 根本信条（公理）",
+      "3. 两条硬性要求",
+      "4. 角色与行为边界",
+      "5. 协作流程（方向级）",
+      "6. 卓越性方向（优秀的五个维度）",
+      "7. 经济性方向（最低总成本）",
+      "8. 资产与演进（复利飞轮）",
+      "9. 范式的自我治理",
+      "10. 术语定义",
+      "11. 范式级验收判据"
+    ],
+    "derived_specification.md": [
+      "0. 地位、追溯与解释",
+      "1. 通用交付物与记录要求",
+      "2. 契约规范",
+      "3. 协作流程规范（P0–P7）",
+      "4. 决策与沟通规范",
+      "5. 可靠性与证据规范",
+      "6. 优秀与多视角审视规范",
+      "7. 经济性与自治预算规范",
+      "8. 资产与演进规范",
+      "9. 符合性治理",
+      "附录 A：追溯总表",
+      "附录 B：最低记录清单",
+      "修订记录"
+    ],
+    "conformance_checklist.md": [
+      "使用说明",
+      "A. 规范地位与适用性",
+      "B. 可靠（硬性要求一）",
+      "C. 优秀（硬性要求二）",
+      "D. 边界与决策",
+      "E. 流程与契约",
+      "F. 经济性与自治",
+      "G. 资产与演进",
+      "H. 安全与合规底线",
+      "I. 治理与证据",
+      "J. 范式级验收判据（宪法 11）",
+      "最终判定",
+      "修订记录"
+    ],
+    "contract_template.md": [
+      "使用规则",
+      "契约元信息"
+    ],
+    "decision_request_template.md": [
+      "使用规则"
+    ],
+    "delivery_report_template.md": [
+      "使用规则"
+    ]
+  },
+  "checklist": {
+    "expected_items": 89,
+    "expected_star_items": 41,
+    "item_prefixes": {
+      "A. 规范地位与适用性": "A",
+      "B. 可靠（硬性要求一）": "R",
+      "C. 优秀（硬性要求二）": "E",
+      "D. 边界与决策": "D",
+      "E. 流程与契约": "P",
+      "F. 经济性与自治": "C",
+      "G. 资产与演进": "K",
+      "H. 安全与合规底线": "S",
+      "I. 治理与证据": "G",
+      "J. 范式级验收判据（宪法 11）": "J"
+    },
+    "sections": [
+      "A. 规范地位与适用性",
+      "B. 可靠（硬性要求一）",
+      "C. 优秀（硬性要求二）",
+      "D. 边界与决策",
+      "E. 流程与契约",
+      "F. 经济性与自治",
+      "G. 资产与演进",
+      "H. 安全与合规底线",
+      "I. 治理与证据",
+      "J. 范式级验收判据（宪法 11）"
+    ],
+    "final_section": "最终判定"
+  },
+  "contract_template": {
+    "required_sections": [
+      "C1 背景与意图",
+      "C2 范围与非目标",
+      "C3 约束与底线",
+      "C4 可靠标准",
+      "C5 优秀标准（五个维度，逐条可判定）",
+      "C6 多视角审视要求",
+      "C7 自治预算",
+      "C8 交付物与证据清单",
+      "C9 验收方式",
+      "C10 变更、终止与失败处置"
+    ]
+  },
+  "decision_request_template": {
+    "required_sections": [
+      "Part A 决策请求",
+      "A0 元信息",
+      "A1 必要性测试（必填，不通过则不得发送）",
+      "A2 背景摘要",
+      "A3 实质选项",
+      "A4 推荐与理由",
+      "A5 默认选择与逾期处置",
+      "A6 决策影响",
+      "A7 响应窗口",
+      "A8 人的决定与留痕",
+      "Part B 必要信息补全请求（仅限 P0/P1）",
+      "B0 前置校验（不通过则不得发送）",
+      "B1 请求内容",
+      "B2 人的答复与留痕",
+      "发送前自检"
+    ]
+  },
+  "delivery_report_template": {
+    "required_sections": [
+      "1. 元信息",
+      "2. 交付单元清单",
+      "3. 契约对照总表",
+      "4. 可靠证据",
+      "5. 优秀证据（五个维度逐项）",
+      "6. 多视角审视与缺陷",
+      "7. 符合性自检结果",
+      "8. 资产沉淀",
+      "9. 成本台账摘要",
+      "10. 安全与合规",
+      "11. 已知边界与未完成说明",
+      "12. 验收建议（仅自查结论）",
+      "13. 签署与验收",
+      "附：追溯矩阵"
+    ]
+  }
+}
